@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - entery point
  * return: Always 0 (success)
  */
