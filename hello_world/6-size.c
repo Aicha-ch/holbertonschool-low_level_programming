@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entery point
- * return: 0 (Succes)
+ * return: 0 (if status succes)
  */
-int main (void)
+int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
 printf("Size of an int: %d byte(s)\n", sizeof(int));
