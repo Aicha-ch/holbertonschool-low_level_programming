@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entery point
+ * main - is a program that prints a string
  * return: Always 0 (success)
  */
 int main(void)
