@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
  * main - prints the alphabet in lowercase, followed by a new line
+ *
  * return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 char i;
 for (i = 'a'; i <= 'z'; i++)
