@@ -4,6 +4,7 @@
  * @dest: pointer to char
  * @src: pointer to char
  * @n: input integer
+ * Return: pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
