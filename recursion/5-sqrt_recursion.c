@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * find_sqrt - a function that checks the number's square
- * @a: integer input
- * @b: integer input
+ * @x: integer input
+ * @y: integer input
  * Return: The square of 'a', otherwise -1
  */
 int find_sqrt(int x, int y)
