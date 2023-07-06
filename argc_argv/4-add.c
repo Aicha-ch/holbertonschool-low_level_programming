@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * @argc: number of arguments passed
- * argv: array pointing to arguments
+ * @argv: array pointing to arguments
  * Return: 0 (Success)
  */
 int main(int argc, char *argv[])
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if(!isdigit(argv[i][j]))
+			if (!isdigit(argv[i][j]))
 			{
 				printf("Error\n");
 				return (1);
