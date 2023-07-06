@@ -2,11 +2,11 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * @argc: number of argument passed 
+ * @argc: number of argument passed
  * @argv: array pointing to arguements
  * Return: 0 (Success)
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	argc = 0;
 		printf("%s\n", argv[argc]);
