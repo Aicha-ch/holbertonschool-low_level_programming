@@ -18,11 +18,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 	{
-		return ("");
+		s1 = "";
 	}
 	if(s2 == NULL)
 	{
-		return ("");
+		s2 = "";
 	}
 	if (n >= len2)
 	{
