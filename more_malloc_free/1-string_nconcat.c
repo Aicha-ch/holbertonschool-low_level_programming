@@ -33,9 +33,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			return (NULL);
 		}
-		strncpy(str, s1, len1);
+		strcpy(str, s1);
 		strncat(str, s2, n);
-		str[len1 + len2 + 1] = '\0';
 	}
 	return (str);
 }
