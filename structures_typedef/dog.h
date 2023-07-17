@@ -1,10 +1,11 @@
 #ifndef _dog_h_
 #define _dog_h_
 /**
- * struct dog: structure named dog
+ * struct dog - structure 
  * @name: first element
  * @age: second element
  * @owner: third element
+ * description: structure containing three elements
  */
 struct dog
 {
