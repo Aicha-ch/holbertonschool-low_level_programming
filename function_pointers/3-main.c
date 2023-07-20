@@ -14,23 +14,23 @@ int main(int argc, char *argv[])
 	{
 
 		printf("Error\n");
-		exit(98);
+			exit(98);
 	}
 
 	n1 = atoi(argv[1]);
 	n2 = atoi(argv[3]);
 	s = argv[2];
 
-	if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
+	if (get_op_func(s) == NULL || argv[2][1] != '\0')
 	{
 		printf("Error\n");
-		exit(99);
+			exit(99);
 	}
 
-	if ((s[0] == '/' || s[0] == '%') && (atoi(argv[3]) == 0))
+	if ((s[0] == '/' || s[0] == '%') && (n2 == 0))
 	{
 		printf("Error\n");
-		exit(100);
+			exit(100);
 	}
 
 	res = get_op_func(s)(n1, n2);

@@ -10,7 +10,6 @@ int op_add(int a, int b)
 	return (a + b);
 }
 
-#include "3-calc.h"
 /**
  * op_sub - function that returns the difference of 2 integers
  * @a: first integer
@@ -22,7 +21,6 @@ int op_sub(int a, int b)
 	return (a - b);
 }
 
-#include "3-calc.h"
 /**
  * op_mul - function returning the multiplication of 2 integers
  * @a: first integer
@@ -33,7 +31,7 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
-#include "3-calc.h"
+
 /**
  * op_div - function returning the result of division of a and b
  * @a: first integer
@@ -44,7 +42,7 @@ int op_div(int a, int b)
 {
 	return (a / b);
 }
-#include "3-calc.h"
+
 /**
  * op_mod - function returning he remainder of the division of a by b
  * @a: first integer
